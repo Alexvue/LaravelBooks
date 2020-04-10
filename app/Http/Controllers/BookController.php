@@ -15,7 +15,7 @@ class BookController extends Controller
         $book = new Book;
         $book->title = $request->title;
         $book->author = $request->author;
-        $book->availabilty = true;
+        $book->availability = true;
 
         $book->save();
 
